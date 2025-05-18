@@ -24,7 +24,7 @@ public class BonusServiceTest {
         long expected = 500;
 // вызываем целевой метод:
         long actual = service.calculate(amount, registered);
-// производим проверку (сравниваем ожидаемый и
+// производим проверку (сравниваем ожидаемый
                 Assertions.assertEquals(expected, actual);
     }
 }
